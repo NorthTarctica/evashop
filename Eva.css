@@ -84,6 +84,15 @@ a {
 cursor: url(./Images/asukaface2.png), auto; 
 }
 
+/* figure {opacity: 0.50;} */
+/* figure:hover {opacity: 1.0;} */
+/* .fig1 {float: left; text-align: center;} */
+/* .fig2 {float: right; text-align: center;} */
+/* figure {display: inline-block; */
+/* figure img {vertical-align: top;} */
+
+/* could not get figures to work in css with opacity, had to put in html, but this is what it would look like */
+
 .WarningMarquee {
 animation: blinker 2s linear infinite;
 color: red;
@@ -96,3 +105,13 @@ font-size: 22px;
 33% {
 opacity: 0.4;
 }
+
+/* .mapcontainer { */
+/* position: absoulte; */
+/* text-align: center; */
+/* }  */
+
+/* same issue with figures I also had with my site map but with positioning */
+
+
+
