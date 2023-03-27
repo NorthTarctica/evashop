@@ -45,10 +45,36 @@ html, body {
 text-align: center;
 }
 
-.Evangelion {
+.EvangelionGroup {
 background-image: url(./Images/EvaGroup.png);
 background-size: cover;
 height: 100%;}
+
+.EvangelionAsuka {
+background-image: url(./Images/Asuka.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionKaworu {
+background-image: url(./Images/Kaworu.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionShinji {
+background-image: url(./Images/Shinji.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionRei {
+background-image: url(./Images/Rei.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionMari {
+background-image: url(./Images/Mari.png);
+background-size: cover;
+height: 100%;}
+
 
 body {
 cursor: url(./Images/cassiuslance2.png), auto;
@@ -69,12 +95,4 @@ font-size: 22px;
 @keyframes blinker {
 33% {
 opacity: 0.4;
-}
-
-audio:not([controls]) {
-    display: none !important;
-}
-audio {
-    width: 300px;
-    height: 54px;
 }
