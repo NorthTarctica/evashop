@@ -1,0 +1,154 @@
+a:link {
+  color: #615aa8; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #592661;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a3da58;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #f7ba2b;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1 {
+	color: #7A50AB;
+font-size: 33px;
+font-weight: bold;
+text-align: center;
+}
+
+.Page1heading {
+color: #7A50AB;
+font-size: 33px;
+font-weight: bold;
+text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.NavigationText {
+text-align: center;
+}
+
+.EvangelionGroup {
+background-image: url(./Images/EvaGroup.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionAsuka {
+background-image: url(./Images/Asuka.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionKaworu {
+background-image: url(./Images/Kaworu.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionShinji {
+background-image: url(./Images/Shinji.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionRei {
+background-image: url(./Images/Rei.png);
+background-size: cover;
+height: 100%;}
+
+.EvangelionMari {
+background-image: url(./Images/Mari.png);
+background-size: cover;
+height: 100%;}
+
+
+body {
+cursor: url(./Images/cassiuslance2.png), auto;
+}
+
+a { 
+cursor: url(./Images/asukaface2.png), auto; 
+}
+
+/* figure {opacity: 0.50;} */
+/* figure:hover {opacity: 1.0;} */
+/* .fig1 {float: left; text-align: center;} */
+/* .fig2 {float: right; text-align: center;} */
+/* figure {display: inline-block; */
+/* figure img {vertical-align: top;} */
+
+/* could not get figures to work in css with opacity, had to put in html, but this is what it would look like */
+
+.WarningMarquee {
+animation: blinker 2s linear infinite;
+color: red;
+font-weight: bolder;
+font-family: sans-serif;
+font-size: 22px;
+}
+    
+@keyframes blinker {
+33% {
+opacity: 0.4;
+}
+}
+
+
+.mapcontainer {
+text-align: center;
+margin: 0 auto 0 auto;
+} 
+
+/* same issue with figures I also had with my site map but with positioning */
+
+ul {
+text-align: center;
+margin: 0 auto 0 auto;
+list-style: inside;
+}
+
+ol {
+text-align: center;
+margin: 0 auto 0 auto;
+list-style: inside upper-roman;
+}
+
+p {
+text-align: center
+}
+
+
+table {
+text-align: center;
+margin: 0 auto 0 auto;
+border: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.allofthefeedbacktext {
+	text-align: center;
+margin: 0 auto 0 auto;
+}
+
+.FeedbackAreaHeading {
+	text-align: center;
+margin: 0 auto 0 auto;
+}
+
+/* again, this was not working on css but only in html style, but this is the code */
+
